@@ -1,0 +1,19 @@
+test_row,gold,Qwen2.5-3B,Llama-3.2-3B,Gemma-2-2B
+8,Entertainment,Business & Economics,Business & Economics,Business & Economics
+22,Science & Technology,Business & Economics,Business & Economics,Business & Economics
+70,Entertainment,Science & Technology,Science & Technology,Science & Technology
+135,Entertainment,Science & Technology,Science & Technology,Science & Technology
+171,Entertainment,Science & Technology,Science & Technology,Science & Technology
+247,Entertainment,Science & Technology,Science & Technology,Science & Technology
+265,Science & Technology,Business & Economics,Business & Economics,Business & Economics
+307,Science & Technology,Entertainment,Entertainment,Entertainment
+352,Business & Economics,Sports,Science & Technology,Entertainment
+390,Science & Technology,Business & Economics,Business & Economics,Business & Economics
+430,Sports,Science & Technology,Science & Technology,Science & Technology
+434,Science & Technology,Entertainment,Entertainment,Entertainment
+485,Entertainment,Science & Technology,Science & Technology,Science & Technology
+510,Science & Technology,Business & Economics,Business & Economics,Business & Economics
+538,Sports,Entertainment,Entertainment,Entertainment
+563,Science & Technology,Sports,Sports,Entertainment
+599,Science & Technology,Entertainment,Entertainment,Entertainment
+785,Science & Technology,Business & Economics,Business & Economics,Business & Economics

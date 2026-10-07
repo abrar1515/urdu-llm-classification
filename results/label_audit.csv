@@ -1,0 +1,19 @@
+test_row,gold_label,check,note
+8,Entertainment,label wrong,Business & Economics
+22,Science & Technology,label wrong,Business & Economics
+70,Entertainment,label wrong,Science & Technology
+135,Entertainment,label wrong,"Seerat-un-Nabi, Religious & Reformative Articles."
+171,Entertainment,label OK,Entertainment
+247,Entertainment,label wrong,News
+265,Science & Technology,unclear,both are true based on text.
+307,Science & Technology,label wrong,Entertainment
+352,Business & Economics,unclear,News
+390,Science & Technology,label wrong,Business & Economics
+430,Sports,label wrong,"Freedom of expression, rights vs duties"
+434,Science & Technology,label wrong,Entertainment
+485,Entertainment,label wrong,Technology Related
+510,Science & Technology,unclear,both are true based on text.
+538,Sports,label wrong,Entertainment
+563,Science & Technology,label wrong,Sports
+599,Science & Technology,label wrong,cartoon channel discuss which lie in Entertainment category.
+785,Science & Technology,label wrong,Business & Economics

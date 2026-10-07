@@ -1,0 +1,14 @@
+# news text (dataset license: non-commercial research, no redistribution)
+data/
+*.xlsx
+
+# training artefacts and model weights
+ckpt/
+*.safetensors
+*.bin
+*.pt
+
+# python / notebooks / secrets
+__pycache__/
+.ipynb_checkpoints/
+.env

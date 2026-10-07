@@ -1,0 +1,93 @@
+{
+  "n_test": 800,
+  "bootstrap_resamples": 10000,
+  "seed": 42,
+  "errors_all_three_llms": 18,
+  "share_all_three_wrong": 0.0225,
+  "at_least_one_llm_correct": 0.9775,
+  "majority_vote_accuracy": 0.9575,
+  "majority_vote_macro_f1": 0.9574312775200952,
+  "pairwise_agreement": {
+    "Qwen2.5-3B / Llama-3.2-3B": 0.95625,
+    "Qwen2.5-3B / Gemma-2-2B": 0.95,
+    "Llama-3.2-3B / Gemma-2-2B": 0.97
+  },
+  "top_confusions": {
+    "TF-IDF + LinearSVC": [
+      [
+        10,
+        "Entertainment",
+        "Sci & Tech"
+      ],
+      [
+        10,
+        "Business & Econ.",
+        "Sci & Tech"
+      ],
+      [
+        8,
+        "Sci & Tech",
+        "Business & Econ."
+      ]
+    ],
+    "Qwen2.5-3B": [
+      [
+        10,
+        "Sports",
+        "Entertainment"
+      ],
+      [
+        9,
+        "Sci & Tech",
+        "Business & Econ."
+      ],
+      [
+        8,
+        "Entertainment",
+        "Sci & Tech"
+      ]
+    ],
+    "Llama-3.2-3B": [
+      [
+        8,
+        "Sci & Tech",
+        "Business & Econ."
+      ],
+      [
+        8,
+        "Entertainment",
+        "Sci & Tech"
+      ],
+      [
+        6,
+        "Sci & Tech",
+        "Entertainment"
+      ]
+    ],
+    "Gemma-2-2B": [
+      [
+        11,
+        "Sci & Tech",
+        "Business & Econ."
+      ],
+      [
+        8,
+        "Entertainment",
+        "Sci & Tech"
+      ],
+      [
+        4,
+        "Sci & Tech",
+        "Entertainment"
+      ]
+    ]
+  },
+  "audit": {
+    "counts": {
+      "label wrong": 14,
+      "unclear": 3,
+      "label OK": 1
+    },
+    "label_wrong_share_of_test": 0.0175
+  }
+}
